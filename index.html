@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Sliders</title>
+    <link rel="stylesheet" href="main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!--is important the class name must be the same with the swipers cuz we use the swiper library-->
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/nature-01.jpg" alt="">
+                <div class="slide-content">
+                    <h2 class="slide-title">Tranquil Afernoon Horizons</h2>
+                    <p class="description">Discover the peace of untouched nature's embrace.</p>
+                    <a href="#" class="btn-cta">Explore Sceneries</a>
+                </div>
+
+            </div>
+             <div class="swiper-slide">
+                <img src="./images/nature-06.jpg" alt="">
+                <div class="slide-content">
+                    <!--you can write any content what you want-->
+                    <h2 class="slide-title">Morning's Fresh Awakening</h2>
+                    <p class="description">Every blade glistening with the promise of a new day.</p>
+                    <a href="#" class="btn-cta">View Details</a>
+                </div> 
+            </div>
+              <div class="swiper-slide">
+                <img src="./images/nature-07.jpg" alt="">
+                <div class="slide-content">
+                    <!--you can write any content what you want-->
+                    <h2 class="slide-title">Wander Through Verdant Trails</h2>
+                    <p class="description">Find your path amidst ancient trees and soft moss.</p>
+                    <a href="#" class="btn-cta">Start Your Journey</a>
+                </div> 
+            </div>
+              <div class="swiper-slide">
+                <img src="./images/nature-08.jpg" alt="">
+                <div class="slide-content">
+                    <!--you can write any content what you want-->
+                    <h2 class="slide-title">Nature's Vibrant Canvas</h2>
+                    <p class="description">Where wild beauty paints the grassy plains.</p>
+                    <a href="#" class="btn-cta">See More</a>
+                </div> 
+            </div>
+
+        
+
+        </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
